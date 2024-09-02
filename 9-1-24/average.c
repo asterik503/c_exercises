@@ -2,7 +2,6 @@
 
 int main(){
   int a,b,c;
-  float d;
   printf("Enter any two numbers: ");
   scanf("%d%d",&a,&b);
   c = a+b;

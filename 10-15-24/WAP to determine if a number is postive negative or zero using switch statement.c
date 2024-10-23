@@ -3,22 +3,19 @@
 int main() {
     int number;
 
-    // Prompt user for input
     printf("Enter an integer: ");
     scanf("%d", &number);
 
-    // Create a variable to represent the state
     int state;
 
     if (number > 0) {
-        state = 1; // Positive
+        state = 1; 
     } else if (number < 0) {
-        state = -1; // Negative
+        state = -1; 
     } else {
-        state = 0; // Zero
+        state = 0; 
     }
 
-    // Use switch statement to determine the number's state
     switch (state) {
         case 1:
             printf("%d is positive.\n", number);
@@ -30,7 +27,6 @@ int main() {
             printf("%d is zero.\n", number);
             break;
         default:
-            // This case will never be reached
             break;
     }
 
